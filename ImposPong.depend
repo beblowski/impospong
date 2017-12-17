@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1439506354 source:/home/pink/mysrc/impospong/main.cpp
+	<iostream>
+	"game.h"
+
+1439407598 /home/pink/mysrc/impospong/respak.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<zzip/lib.h>
+	<stdio.h>
+	<cstring>
+	<iostream>
+	<zzip/lib.h>
+
+1439409786 source:/home/pink/mysrc/impospong/respak.cpp
+	"respak.h"
+
+1439607871 source:/home/pink/mysrc/impospong/paddle.cpp
+	"paddle.h"
+
+1439611647 source:/home/pink/mysrc/impospong/game.cpp
+	"game.h"
+
+1439461497 /home/pink/mysrc/impospong/game.h
+	"respak.h"
+	"paddle.h"
+	"ball.h"
+	"animate.h"
+	"textblock.h"
+	"ui.h"
+	"pu_bigball.h"
+	"pu_smallball.h"
+	"pu_drunkball.h"
+	"pu_barball.h"
+
+1439605557 /home/pink/mysrc/impospong/paddle.h
+	"respak.h"
+
+1439553330 source:/home/pink/mysrc/impospong/ball.cpp
+	"ball.h"
+
+1439507716 /home/pink/mysrc/impospong/ball.h
+	"respak.h"
+	"paddle.h"
+	"SDL2/SDL_mixer.h"
+	"animate.h"
+
+1439599267 source:/home/pink/mysrc/impospong/pickup.cpp
+	"pickup.h"
+
+1439599589 /home/pink/mysrc/impospong/pickup.h
+	"respak.h"
+	"ball.h"
+	"paddle.h"
+
+1439620850 source:/home/pink/mysrc/impospong/ui.cpp
+	"ui.h"
+
+1439619957 /home/pink/mysrc/impospong/ui.h
+	"respak.h"
+	"textblock.h"
+	"pickup.h"
+
+1439600110 /home/pink/mysrc/impospong/pu_bigball.h
+	"pickup.h"
+
+1439600122 source:/home/pink/mysrc/impospong/pu_bigball.cpp
+	"pu_bigball.h"
+
+1439336292 source:/home/pink/mysrc/impospong/animate.cpp
+	"animate.h"
+
+1439352348 /home/pink/mysrc/impospong/animate.h
+	"respak.h"
+
+1439600399 /home/pink/mysrc/impospong/pu_smallball.h
+	"pickup.h"
+
+1439600344 source:/home/pink/mysrc/impospong/pu_smallball.cpp
+	"pu_smallball.h"
+
+1439599837 /home/pink/mysrc/impospong/pu_drunkball.h
+	"pickup.h"
+
+1439599837 source:/home/pink/mysrc/impospong/pu_drunkball.cpp
+	"pu_drunkball.h"
+
+1439599589 source:/home/pink/mysrc/impospong/pu_barball.cpp
+	"pu_barball.h"
+
+1439599630 /home/pink/mysrc/impospong/pu_barball.h
+	"pickup.h"
+
+1439543582 /home/pink/mysrc/impospong/textblock.h
+	"respak.h"
+	<vector>
+
+1439543582 source:/home/pink/mysrc/impospong/textblock.cpp
+	"textblock.h"
+
